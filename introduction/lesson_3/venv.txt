@@ -1,0 +1,33 @@
+Problem:
+If application A needs version 1.0 of a particular module but application B needs version 2.0,
+then the requirements are in conflict
+and installing either version 1.0 or 2.0 will leave one application unable to run.
+
+Solution:
+create a virtual environment for each application
+
+Method:
+step1--create
+1) Terminal: python3 -m venv tutorial-env
+2) add new interpreter -> virtual environment
+
+step2--activate
+For windows, run tutorial-env\Scripts\activate.bat
+For Unix or MacOS, run source tutorial-env/bin/activate
+
+Manage packages:
+note--install pip first: python -m ensurepip --default-pip
+
+1) install a package: pip install xxx
+https://pypi.org/
+
+2) uninstall: pip uninstall xxx
+
+3) pip install --upgrade xxx
+
+4) display all the packages installed in the virtual environment: pip list
+
+5) save the list to a file : pip freeze > requirements.txt
+
+6) users install packages from requirements.txt file: pip install -r requirements.txt
+
