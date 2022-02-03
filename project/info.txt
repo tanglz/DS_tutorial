@@ -1,0 +1,5 @@
+1. Image
+https://www.analyticsvidhya.com/blog/2021/03/grayscale-and-rgb-format-for-storing-images/
+
+related tool: https://www.rapidtables.com/web/color/RGB_Color.html
+
