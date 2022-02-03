@@ -8,15 +8,15 @@ multi_list_1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # create a ndarray from a list
 nd_arr = np.array(multi_list_1)
 # print(nd_arr)
-# print(type(nd_arr))
-# # the shape is a tuple
+# # print(type(nd_arr))
+# # # the shape is a tuple
 # print(nd_arr.shape)
 
 # # other methods to create ndarray
 # a = np.arange(15).reshape(3, 5)
 # print(a)
-# np.arange(2,9,2)
-# np.linspace(0,10,num=5)
+# print(np.arange(2,9,2))
+print(np.linspace(0,10,num=5))
 # b = np.zeros((2, 3), dtype=np.int8)
 # print(b)
 #
@@ -102,12 +102,12 @@ w = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 # print(a_1+a_2+a_3)
 
 # reverse
-arr_2d = np.array([[1,2,3], [4,5,6], [7,8,9]])
-print(arr_2d)
+# arr_2d = np.array([[1,2,3], [4,5,6], [7,8,9]])
+# print(arr_2d)
 # print(np.flip(arr_2d))
 # print(np.flip(arr_2d, axis=0)) # only the rows
 
 # rotate 90 degree
-arr_2d_2 = np.array([[1,1,1],[2,2,2],[3,3,3]])
-print(np.rot90(arr_2d_2, k=1))
+# arr_2d_2 = np.array([[1,1,1],[2,2,2],[3,3,3]])
+# print(np.rot90(arr_2d_2, k=1))
 
