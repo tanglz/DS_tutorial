@@ -1,0 +1,18 @@
+1. Insertion sort in Python,
+https://www.programiz.com/dsa/insertion-sort
+
+2. single, double, and circular linked lists
+https://en.wikipedia.org/wiki/Linked_list
+
+3. stacks using liked list, recursion, and examples about their applications
+
+1). Implement a stack using singly linked list
+https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/
+
+2). Implement a queue
+https://www.geeksforgeeks.org/queue-linked-list-implementation/
+
+3) Recursion
+A Fibonacci sequence
+
+easy to start: https://www.pythontutorial.net/python-basics/python-recursive-functions/
