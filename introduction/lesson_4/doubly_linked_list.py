@@ -21,6 +21,20 @@ class DLinkedList:
             current.next_node = new_node
             new_node.pre_node = current
 
+    # reverse
+    def reverse(self):
+        temp = None
+        current = self.head
+        # Swap next and prev for all nodes
+        while current is not None:
+            temp = current.prev
+            current.prev = current.next
+            current.next = temp
+            current = current.prev
+        # change head
+        if temp is not None:
+            self.head = temp.prev
+
     # convert to list
     def tolist(self):
         l = []
