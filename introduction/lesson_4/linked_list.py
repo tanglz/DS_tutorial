@@ -33,7 +33,7 @@ class LinkedList:
         return l
 
 
-# Create a linked list with one node (head)
+# Create a linked list
 ll = LinkedList()
 # Insert a node
 ll.insert(4)

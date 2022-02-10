@@ -16,10 +16,10 @@ nd_arr = np.array(multi_list_1)
 # a = np.arange(15).reshape(3, 5)
 # print(a)
 # print(np.arange(2,9,2))
-print(np.linspace(0,10,num=5))
+# print(np.linspace(0,10,num=5))
 # b = np.zeros((2, 3), dtype=np.int8)
 # print(b)
-#
+# #
 # c = np.ones((3, 3), dtype=int)
 # print(c)
 #
@@ -32,26 +32,26 @@ print(np.linspace(0,10,num=5))
 # print(num_row)
 # num_col = nd_arr.shape[1]
 # print(num_col)
-# # # access the ith row and col
+# # # # access the ith row and col
 # ith_row = nd_arr[0, :]
 # print(ith_row)
 # ith_col = nd_arr[:, 0]
 # print(ith_col)
-# # # sum
+# # # # sum
 # total_first_row = sum(nd_arr[0, :])
 # print(total_first_row)
-#
+# #
 # total_first_col = sum(nd_arr[:, 0])
 # print(total_first_col)
 
 # concatenate
-# arr_1 = np.array([1, 2, 3, 4])
-# arr_2 = np.array([5, 6, 7, 8])
-# np.concatenate((arr_1, arr_2))
+arr_1 = np.array([1, 2, 3, 4])
+arr_2 = np.array([5, 6, 7, 8])
+# print(np.concatenate((arr_1, arr_2)))
 #
-# x = np.array([[1, 2], [3, 4]])
-# y = np.array([[5, 6]])
-# np.concatenate((x, y))
+x = np.array([[1, 2], [3, 4]])
+y = np.array([[5, 6]])
+# print(np.concatenate((x, y)))
 
 # stack
 # print(np.vstack((arr_1,arr_2)))
@@ -59,9 +59,10 @@ print(np.linspace(0,10,num=5))
 # print(np.vstack((x,y)))
 
 # reshape
-# arr_3 = np.arange(6)
-# arr_4 = arr_3.reshape(3, 2)
-# arr_5 = np.reshape(arr_3, newshape=(2, 3))
+arr_3 = np.arange(6)
+arr_4 = arr_3.reshape(3, 2)
+# print(arr_4)
+arr_5 = np.reshape(arr_3, newshape=(2, 3))
 
 # select by condition
 # z = np.arange(2, 15, 2)
@@ -108,6 +109,10 @@ w = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 # print(np.flip(arr_2d, axis=0)) # only the rows
 
 # rotate 90 degree
-# arr_2d_2 = np.array([[1,1,1],[2,2,2],[3,3,3]])
-# print(np.rot90(arr_2d_2, k=1))
+arr_2d_2 = np.array([[1,1,1],[2,2,2],[3,3,3]])
+print(arr_2d_2)
+print(np.rot90(arr_2d_2, k=1))
+print(np.rot90(arr_2d_2, k=2))
+print(np.rot90(arr_2d_2, k=3))
+print(np.rot90(arr_2d_2, k=4))
 
