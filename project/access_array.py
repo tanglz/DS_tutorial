@@ -1,5 +1,6 @@
 import numpy as np
 
+# diagonal array
 x = 4
 arr = np.arange(16).reshape(x, x)
 print(arr)
@@ -11,12 +12,18 @@ for i in range(x):
     if i + 1 < x:
         diagonal_c_u_1.append(arr[i][i + 1])
         diagonal_c_d_1.append(arr[i + 1][i])
-print(diagonal_c)
+print('list diagonal:',diagonal_c)
 print('sum_c=', sum(diagonal_c))
-print(diagonal_c_u_1)
+print('list diagonal offset 1', diagonal_c_u_1)
 print(diagonal_c_d_1)
 
+# diagonal array (method 2)
+print('np array diagonal: ', np.diagonal(arr, 0, 0, 1))
+print('np array diagonal, offset 1: ', np.diagonal(arr, 1, 0, 1))
+print('np array diagonal, offset -1: ', np.diagonal(arr, -1, 0, 1))
+print('np array diagonal, offset -2: ', np.diagonal(arr, -2, 0, 1))
 
+# Threshold
 def average_1(l):
     return sum(l) / len(l)
 
