@@ -1,5 +1,19 @@
-1. Image
+1. Access an image
+1) load an image
+2) get classes
+3) convert an image to a ndarray
+Further reading:
 https://www.analyticsvidhya.com/blog/2021/03/grayscale-and-rgb-format-for-storing-images/
-
 related tool: https://www.rapidtables.com/web/color/RGB_Color.html
 
+2. Get projections
+1) square matrix
+2) sum
+3) rotate
+
+3. threshold
+1) average
+
+4. barcode
+
+5. hamming distance
