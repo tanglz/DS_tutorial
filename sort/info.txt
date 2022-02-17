@@ -1,7 +1,8 @@
+activity
 https://math.hws.edu/eck/js/sorting/xSortLab.html
 
 
-Outline:
+Sort algorithms implementation:
 1. bubble sort
 2. insertion sort
 3. selection sort
