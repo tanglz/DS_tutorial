@@ -6,10 +6,4 @@ Outline:
 2. insertion sort
 3. selection sort
 4. merge sort
-Further reading:
-4.1. binary tree
-https://www.educative.io/edpresso/binary-trees-in-python
-4.2 tree recursion or binary recursion
-In binary recursion, the function calls itself twice in each run.
-https://users.monash.edu/~lloyd/tildeAlgDS/Recn/Binary/
-
+5. quick sort

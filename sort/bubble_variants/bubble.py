@@ -7,11 +7,11 @@ def sort(array):
         # Last k elements are already in place
         for i in range(len(array) - k):
             # compare with the next item
-            current = array[i]
-            if i + 1 < len(array) and current > array[i + 1]:
+            temp = array[i]
+            if i + 1 < len(array) and temp > array[i + 1]:
                 # swap
                 array[i] = array[i + 1]
-                array[i + 1] = current
+                array[i + 1] = temp
 
 
 A = [10, 2, 7, 9, 4]
