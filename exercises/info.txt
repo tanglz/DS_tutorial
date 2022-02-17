@@ -1,1 +1,12 @@
-Ex. C-3.5, C-3.6, C-3.7, C-3.8, C-3.9, C-3.10, C-3.15, C-3.23
+Exercises & solutions
+***Linked List***
+1. Let B be an array of size n >= 6 containing integers from 1 to n-5, inclusive, with exactly five repeated. Describe a good algorithm for finding the five integers in B that are repeated.
+2. Suppose you are designing a multi-player game that has n >= 1000 players, numbered 1 to n, interacting in an enchanted forest. The winner of this game is the first player who can meet all the other players at least once (ties are allowed). Assuming that there is a method meet(i ,j ), which is called each time a player i meets a player j (with i != j), describe a way to keep track of the pairs of meeting players and who is the winner.
+3. Describe a good algorithm for concatenating two singly linked lists L and M, with header sentinels, into a single list L’ that contains all the nodes of L followed by all the nodes of M.
+4. Give a fast algorithm for concatenating two doubly linked lists L and M, with header and trailer sentinel nodes, into a single list L '.
+5. Suppose you are given two circularly linked lists, L and M, that is, two lists of nodes such that each node has a nonnull next node. Describe a fast algorithm for telling if L and M are really the same list of nodes, but with different (cursor) starting points.
+
+***Recursion***
+1. Give a recursive algorithm to compute the product of two positive integers, m and n , using only addition and subtraction.
+2. Describe a fast recursive algorithm for reversing a singly linked list L, so that the ordering of the nodes becomes opposite of what it was before, a list has only one position, then we are done; the list is already reversed. Otherwise, remove
+3. Describe a recursive algorithm that counts the number of nodes in a singly linked list.
