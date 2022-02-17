@@ -92,18 +92,9 @@ def sort(arr):
         k += 1
 
 
-# A = [38, 27, 43, 3, 9, 82, 10]
-# sort(A)
-# print(A)
+A = [38, 27, 43, 3, 9, 82, 10]
+sort(A)
+print(A)
 
-def func_1(n):
-    print(n)
-    if n > 0:
-        n = n-1
-        func_1(n)
-        func_1(n)
-    print('---')
-
-func_1(5)
 
 # Bottom-up
