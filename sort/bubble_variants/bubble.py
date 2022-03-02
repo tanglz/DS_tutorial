@@ -3,7 +3,11 @@
 
 def sort(array):
     # Traverse through all array elements
-    for k in range(len(array)):
+    # i =0
+    # for item in array:
+    #     print(item)
+
+    for k in range(len(array)):  # index from 0 to length-1
         # Last k elements are already in place
         for i in range(len(array) - k):
             # compare with the next item

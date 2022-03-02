@@ -36,6 +36,6 @@ def sort(array):
     return array
 
 
-arr = [10, 7, 8, 9, 1, 5, 11, 100, 32,5]
-a = sort(arr)
-print(a)
+# arr = [10, 7, 8, 9, 1, 5, 11, 100, 32,5]
+# a = sort(arr)
+# print(a)

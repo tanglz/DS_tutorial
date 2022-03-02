@@ -16,7 +16,7 @@ def insertion_sort(array):
         array[j + 1] = key
 
 
-data = [9, 5, 1, 4, 3]
+data = [1, 5, 3, 11, 9, 7]
 insertion_sort(data)
 print('Sorted Array in Ascending Order:')
 print(data)

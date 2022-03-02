@@ -40,15 +40,15 @@ def sort(array):
     i = 1  # current item start from index=1, the second number
     while i < len(array):
         print('before sort,arr=', array)
-        current = array[i]  # the current item
-        print('current item:', current)
+        temp = array[i]  # the current item
+        print('current item:', temp)
         j = i - 1
-        while j >= 0 and array[j] > current:  # increase
+        while j >= 0 and array[j] > temp:  # increase
             # if the previous item is greater than current item,
             array[j + 1] = array[j]  # move to the next position
             j = j - 1
 
-        array[j + 1] = current  # put the current item to the position
+        array[j + 1] = temp  # put the current item to the position
         i = i + 1
         print('arr=', array)
         print('----------------------------------------')
