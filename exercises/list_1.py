@@ -1,7 +1,7 @@
 # 3.5
 
-arr = [2, 2, 1, 2, 2, 2]  # n = 6
-arr2 = [1, 2, 3, 2, 4, 2, 9, 2, 5, 2]  # n = 10, the item should from 1 to 9
+arr = [2, 2, 1, 2, 2, 2,1]  # n = 7 -> [1,1,2,2,2,2,2]
+arr2 = [1, 2, 3, 2, 4, 2, 1, 2, 3, 2]  # n = 10, the item should from 1 to 5
 
 
 def find_repeat_1(array):
