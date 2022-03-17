@@ -1,0 +1,5 @@
+https://www.cpp.edu/~ftang/courses/CS240/lectures/analysis.htm
+
+https://www.bigocheatsheet.com/
+
+example explaination: https://medium.com/@mckenziefiege/arrays-linked-lists-and-big-o-notation-486727b6259b
