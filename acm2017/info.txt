@@ -1,0 +1,3 @@
+http://www.cs.ucf.edu/~dmarino/progcontests/mysols/worldfinals/2017/
+
+Problem: A, C, E ,F, H
