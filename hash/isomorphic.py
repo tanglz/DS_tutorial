@@ -38,7 +38,7 @@ def isIsomorphic(X, Y):
 if __name__ == '__main__':
 
     X = 'ACAB'
-    Y = 'XCXY'
+    Y = 'XCXY' #d={'A':'X','C':'C','B':'Y'}, S={X,C,B}
     if isIsomorphic(X, Y):
         print(f'{X} and {Y} are Isomorphic')
     else:
