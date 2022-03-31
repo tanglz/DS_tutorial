@@ -43,6 +43,20 @@ def postorder(root):
         postorder(root.right)
         print(root.data, end=' ')
 
+from collections import deque
+def preorder_iterative(root):
+    if root is None:
+        return
+    stack = deque()
+    stack.append(root)
+    while stack:
+        current = stack.pop()
+        print(current.data, end=' ')
+        if current.right:
+            stack.append(current.right)
+        if current.left:
+            stack.append(current.left)
+
 print('inorder:', end=' ')
 inorder(root)
 print('\n')
@@ -51,3 +65,7 @@ preorder(root)
 print('\n')
 print('postorder', end=' ')
 postorder(root)
+
+print('\n')
+print('preorder iterative:', end=' ')
+preorder_iterative(root)
